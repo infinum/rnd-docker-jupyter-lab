@@ -3,6 +3,7 @@
 ## Requirements
 
 * Docker
+* docker-compose
 
 ## Usage
 
@@ -16,3 +17,5 @@
     docker-compose build
     docker-compose up
     ```
+
+If you want to use different Python version, edit first line in the Dockerfile. You can find list of available Python Docker images here:w
